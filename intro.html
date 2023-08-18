@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Javascript Introduction</h1>
+	<script type="text/javascript">
+		// var a=9;
+		// var b=10;
+		// var c=16;
+		// alert(a)
+		// document.write(b)
+		// console.log(c)
+		// document.write("<h1>Welcome to javascript</h1> <br>");
+		// document.write("<h1>The value is</h1> ",a)
+
+
+
+		// var name = "lochana";
+		// document.write(name);
+		// document.write(name.length+"<br>")
+		// name = " lochi";
+		// document.write(name.length)
+		// document.write(name);
+
+
+
+		// var name="lochi";
+		// name += " vinni";
+		// name += ",syamala";
+		// var a;
+		// document.write(name+"<br>")
+		// document.write(typeof(name)+"<br>")
+		// document.write(typeof(a)+"<br>")
+
+
+
+		var a;
+		a +='lochi'
+		//document.write((a))
+		g=true
+		//document.write(typeof(g))
+		list=['a','b','c']
+		//document.write(typeof(list))
+
+
+
+		var arr=['abc',16,true];
+		//document.write(arr);
+		//console.log(arr)
+		//document.write(arr[1])
+		var a=arr.indexOf('abc')
+		//document.write(a+"<br>")
+		//document.write(arr[1],arr[2])
+
+
+
+
+		var obj={'name':'lochi','college':'AEC','branch':'ECE'}
+		//console.log(obj.name)
+		//console.log(obj['name'])
+		//console.log(obj.college)
+		//console.log(obj.branch,obj.college,obj.name)
+		//document.write(obj)
+	    
+
+	    var obj=[{'name':'lochi','college':'AEC','branch':'ECE'},
+	              {'name':'lochana','college':'aec','branch':'IT'},
+	              {'name':'vinni','college':'acet','branch':'ece'},
+	              {'name':'vineela','college':'adtp','branch':'eee'},
+	              {'name':'lochana vijaya','college':'acoe','branch':'cse'}]
+	    // console.log(obj[0].name,obj[0].name)
+	    // console.log(obj[0].branch,obj[1].branch)
+	    // console.log(obj[0].college,obj[1].college)
+	    // var a=obj.length
+     //    for (var i=0 ;i<a;i++){
+     //    	console.log(i+1,obj[i].name,obj[i].college,obj[i].branch)
+     //    }
+        
+     //    for(var i=1;i<=10;i++){
+     //    	if (i%2==0 & i>5) {
+     //    	document.write(i)
+     //    }
+     //    }
+        
+
+    
+
+
+    var obj=[{'name':'lochi','college':'AEC','branch':'ECE','rollno':'A0'},
+	              {'name':'lochana','college':'aec','branch':'IT','rollno':'4A0'}]
+	              // {'name':'lochana','college':'aec','branch':'IT'},
+	              // {'name':'vinni','college':'acet','branch':'ece'},
+	              // {'name':'vineela','college':'adtp','branch':'eee'},
+	              // {'name':'lochana vijaya','college':'acoe','branch':'cse'}]
+	for (var i=0;i<obj.length;i++){
+		for (var key in obj[i]){
+			document.write(obj[i][key]+"     ")
+		}
+		document.write("<br>")
+	}
+
+
+	</script>
+</body>
+</html>
